@@ -10,7 +10,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 - GitHub: A web-based platform for version control and collaboration that allows developers to host and review code, manage projects, and build software alongside millions of other developers.
 
 ### Requirement Specifications:
-- Landing/Home Page:
+- [ ] Landing/Home Page:
   - User Provides Following Information
     - First name... (Input)
     - Last name... (Input)
@@ -19,11 +19,11 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - Mobile Number... (Input)
     - Twitter handle... (Input)
     - Discord handle... (Input)
-    - Checkbox[]: Opt in for updates (If yes, Twitter and Discord are mandatory.
+    - Checkbox[ ]: Opt in for updates (If yes, Twitter and Discord are mandatory.
   - Button
     - CTA (Button Text): Wallet Connect 
-- Result Page:
-  - 
+- [ ] Result Page:
+    - *Success Message:* 
 
 
 
