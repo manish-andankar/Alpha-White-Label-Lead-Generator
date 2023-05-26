@@ -5,8 +5,9 @@ This is **Part-1** of *The Hobbit's Journey*, that contains working and deployab
 
 ### Tech Stack
 The Alpha White Label Lead Generation Flutter App utilizes the following technologies and frameworks:
-Flutter: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-Dart: The programming language used by Flutter to build applications.
-GitHub: A web-based platform for version control and collaboration that allows developers to host and review code, manage projects, and build software alongside millions of other developers.
+- Flutter: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. Visit https://docs.flutter.dev/ to learn more.
+- Dart: The programming language used by Flutter to build applications.
+- GitHub: A web-based platform for version control and collaboration that allows developers to host and review code, manage projects, and build software alongside millions of other developers.
+
 
 
