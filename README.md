@@ -19,7 +19,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - Mobile Number... (Input)
     - Twitter handle... (Input)
     - Discord handle... (Input)
-    - Checkbox - [ ]: Opt in for updates (If yes, Twitter and Discord are mandatory.
+    - Checkbox [ ] : Opt in for updates (If yes, Twitter and Discord are mandatory.
   - Button
     - CTA (Button Text): Wallet Connect 
 - [ ] Result Page:
