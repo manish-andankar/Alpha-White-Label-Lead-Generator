@@ -24,8 +24,12 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     *Note: If yes, Twitter and Discord are mandatory.*
   - Button
     - CTA (Button Text): Wallet Connect 
-- [ ] Result Page:
-    - *Success Message:* 
+- [ ] Result Page: 
+    - Upon clicking 'Wallet Connect' button, show the following,
+    - *Success Message:* Congratulations {{FirstName}} {{LastName}} !! You are now connected to New Sacred. 
+    *Note: In case of Success, & User did not Opt in for updates on Landing/Home Page, there is another chance to do it*
+    - Are you sure you do not want to miss out on those awesome updates that gives you access to exclusive New Sacred merchandise and opportunities to participate in events that benefits you?
+    - 
 
 
 
