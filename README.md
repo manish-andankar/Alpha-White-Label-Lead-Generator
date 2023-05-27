@@ -24,6 +24,7 @@ The Alpha White Label Lead Generation APIs utilizes the following technologies a
     - Discord handle... (Input) **Mandatory if Opt-in is true.
     - Checkbox 
     - [ ] Opt in for updates. 
+    - Solana Account Address... (Input) **Mandatory
     *Note: If yes, Twitter and Discord are mandatory.*
     *Use any secure and reliable third party api to get valid country codes*
     The sample payload in the body is as follows:
