@@ -46,6 +46,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
   - Use: Any of the Integrated Development Environment like Visual Studio Code recommended by Flutter. See https://docs.flutter.dev/get-started/editor to learn more.
   - use: Dart, DartPad
   - use: Best practices and Recommendations from Flutter 
+  - use: Vercel to deploy the applicaiton on Web. See https://vercel.com/. You may use a platform of your choice.
 
 ### Test Cases - Applicable for Web, Android and iOS App.
 | Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
@@ -56,6 +57,12 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 | 4 | Wallet Connect Success Opt-In| Wallet Connect is successful | User Info, Opt-In | Provide User Info, Opt-In is Checked, Click Wallet Connect Button | User Navigates to Result Page, with a *Success Message*. |
 | 4 | Wallet Connect Success Opt-Out| Wallet Connect is successful | User Info, Opt-Out | Provide User Info, Opt-In is Checked, Click Wallet Connect Button | User Navigates to Result Page, with a *Success Message*, followed by *Opt-in CTA Message* and Checkbox to Opt-In. |
 | 5 | Wallet Connect Failure | Wallet Connect fails | User Info, Opt-Out | Provide User Info with email *a@a.com*, Opt-In is *UNCHECKED*, Click Wallet Connect Button | User Navigates to Result Page, with a *Failure Message*, and page shows *Naviage to Home Button*|
+
+### Deliverable
+  - Completed Code is checked in to the repository with a *unique folder name* that indicates your contribution.
+  - Web application deployed on Vercel and link shared in a text file checked in with the name *web_app_url* under the folder *deliverables* within your *unique folder*.
+  - Mobile application files for iOS and Android that are installable on an Apple or Android device and runs successfully on those devices.  
+  - Documentation & Video Demo under the folder *documentation* within your *unique folder*. 
 
 
 
