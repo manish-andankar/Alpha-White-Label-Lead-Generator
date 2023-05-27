@@ -1,2 +1,28 @@
-# Alpha-White-Label
-White Label - Tech Stack a single codebase: React Native and Flutter.
+# TPR: Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication.
+## Solution Description: Alpha White Label Lead Generator
+### Industry: Fin-Tech
+
+This is *The Phoenix's Rebirth*, that contains working and deployable code for White Label Lead Generator to perform Phantom Wallet Connect, capture Sol Address of the User and authenticates the user by creating a user session.
+
+### Tech Stack
+- Tech Stack of [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md)
+- Phantom Wallet: Phantom is a crypto wallet that can be used to manage digital assets and access decentralized applications on Solana, Polygon, and Ethereum. Phantom is     currently available as:
+  - A browser extension
+  - An iOS app
+  - An Android app.
+  Visit https://phantom.app/ and https://docs.phantom.app/introduction/readme to learn more.
+- Solana: Solana is a blockchain built for mass adoption. It's a high performance network that is utilized for a range of use cases, including finance, NFTs, payments, and gaming. Solana operates as a single global state machine, and is open, interoperable and decentralized. Visit https://solana.com/ to learn more.
+
+### Requirement Specifications:
+- Integrate [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md) with Phantom Wallet through "Wallet Connect" button on the screen, to capture Sol Address of the User and authenticate the user by creating a user session on establishing the wallet connection successfully.
+
+### Solution Constraints:
+- The Sol Address and UserInfo (along with OptIn) is not sent to the server upon successful Wallet Connect.
+
+### Tools to use/avoid
+As described in [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md). Additional tools related to Wallet Connection with Phantom Wallet, may also be used.
+
+### Test Cases - Applicable for Web, Android and iOS App.
+| Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
+| ----------- | ----------- |----------- | ----------- | ----------- | ----------- |
+| 1 | Access app (Web, Android, iOS) and Wallet SignIn | Access the app and Wallet SignIn  | UserInfo Provided & Opt-In Checked | Landing Screen is presented to the user, User provides information and Opts-In for Updates, User clicks Wallet Connect  | User is redirected to Phantom Wallet, Provides necessary information such as Password to prove their identity, Authorizes Lead Generator app to access Sol Address (optionally balance), App captures the Sol Address, App Authenticates the User by creating their User Session. In case of Web the Phantom Wallet Browser Extension is used, whereas in case of Android or iOS App, the Phantom Wallet App installed in the phone is autodetected and can be selected by the user to authorise the app and connect their wallet to sign in. |
