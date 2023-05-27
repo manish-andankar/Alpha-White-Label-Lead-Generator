@@ -58,7 +58,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 | 4 | Wallet Connect Success Opt-Out| Wallet Connect is successful | User Info, Opt-Out | Provide User Info, Opt-In is Checked, Click Wallet Connect Button | User Navigates to Result Page, with a *Success Message*, followed by *Opt-in CTA Message* and Checkbox to Opt-In. |
 | 5 | Wallet Connect Failure | Wallet Connect fails | User Info, Opt-Out | Provide User Info with email *a@a.com*, Opt-In is *UNCHECKED*, Click Wallet Connect Button | User Navigates to Result Page, with a *Failure Message*, and page shows *Naviage to Home Button*|
 
-### Deliverable
+### Deliverables
   - Completed Code is checked in to the repository with a *unique folder name* that indicates your contribution.
   - Web application deployed on Vercel and link shared in a text file checked in with the name *web_app_url* under the folder *deliverables* within your *unique folder*.
   - Mobile application files for iOS and Android that are installable on an Apple or Android device and runs successfully on those devices.  
