@@ -26,3 +26,8 @@ As described in [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-
 | Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
 | ----------- | ----------- |----------- | ----------- | ----------- | ----------- |
 | 1 | Access app (Web, Android, iOS) and Wallet SignIn | Access the app and Wallet SignIn  | UserInfo Provided & Opt-In Checked | Landing Screen is presented to the user, User provides information and Opts-In for Updates, User clicks Wallet Connect  | User is redirected to Phantom Wallet, Provides necessary information such as Password to prove their identity, Authorizes Lead Generator app to access Sol Address (optionally balance), App captures the Sol Address, App Authenticates the User by creating their User Session. In case of Web the Phantom Wallet Browser Extension is used, whereas in case of Android or iOS App, the Phantom Wallet App installed in the phone is autodetected and can be selected by the user to authorise the app and connect their wallet to sign in. |
+
+The sample application url https://solana-labs.github.io/wallet-adapter/example/ can be accessed on the Web Browser or the Browser in the Android/iOS device to understand the requirements clearly.
+
+### Deliverables
+- Same as [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md), with an additional feature to allow users to connect their Phantom Wallet on all three platforms (Web, Android and iOS), as demonstrated by the sample application at https://solana-labs.github.io/wallet-adapter/example/.
