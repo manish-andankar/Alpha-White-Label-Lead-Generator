@@ -18,7 +18,7 @@ The working prototype of user interface utilizes the following technologies and 
 ### Solution Constraints:
 - Working prototype need to showcase all test cases described in the README.md file at [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md)
 
-### Deliverable
+### Deliverables
 - Responsive Figma prototype links, other extracted artefacts such as css (if any) that will be used in [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md) to integrate this design into the Front-End application built in Flutter.
 - The prototype links are shared in a text file with the name *app_prototype_url* and other artefact files (if any) checked in under the folder *deliverables* within your *unique folder*.
 - Documentation & Video Demo under the folder *documentation* within your *unique folder*.
