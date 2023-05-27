@@ -1,4 +1,4 @@
-# TLG1: Serverless APIs for White Label Lead Generator App.
+# TLG1: GCP Serverless APIs for White Label Lead Generator App.
 ## Solution Description: Alpha White Label Lead Generator
 ### Industry: Fin-Tech
 
