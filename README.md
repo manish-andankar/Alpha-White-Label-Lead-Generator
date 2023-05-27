@@ -95,7 +95,7 @@ The Alpha White Label Lead Generation APIs utilizes the following technologies a
   - Secured apis to protect from malacious attacks.
 
 ### Tools to use/avoid
-  - Use: GCP Serverless Platform ONLY.
+  - use: GCP Serverless Platform ONLY.
   - use: Best practices and Recommendations from GCP Serverless.
 
 ### Test Cases
