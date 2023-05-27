@@ -64,7 +64,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
   - Web application deployed on Vercel and link shared in a text file checked in with the name *web_app_url* under the folder *deliverables* within the *unique folder*.
   - Mobile application files for iOS and Android that are installable on an Apple or Android device and runs successfully on those devices, checked in to the *deliverables* folder.
   - Deployment instructions for each platform, Web, iOS and Android are documented with supporting materials and assets in the *deployment guide* folder.
-  - Documentation & Video Demo under the folder *documentation* within your *unique folder*. 
+  - Documentation & Video Demo under the folder *documentation* within the *unique folder*. 
 
 
 
