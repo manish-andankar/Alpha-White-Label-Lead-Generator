@@ -1,6 +1,5 @@
 # THJ2: User Interface Design and User Experience
 ## Solution Description: Alpha White Label Lead Generator
-
 ### Industry: Fin-Tech
 
 This is **Part-2** of *The Hobbit's Journey*, that contains working prototype of user interface that becomes part of the final application that creates a responsive and rich user experiences.
