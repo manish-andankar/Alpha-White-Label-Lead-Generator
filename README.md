@@ -25,5 +25,5 @@ The working prototype of user interface utilizes the following technologies and 
 
 ### Deliverables
 - Responsive Figma prototype links, other extracted artefacts such as css (if any) that will be used in [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md) to integrate this design into the Front-End application built in Flutter.
-- The prototype links are shared in a text file with the name *app_prototype_url* and other artefact files that integrates into [THJ](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ/README.md) are checked in under the folder *deliverables* within your *unique folder*.
+- The prototype links are shared in a text file with the name *app_prototype_url* and other artefact files that integrates into [THJ](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ/README.md) are checked in under the folder *deliverables* within your *unique folder*. It is the *parent* folder for all deliverables.
 - Documentation & Video Demo under the folder *documentation* within your *unique folder*.
