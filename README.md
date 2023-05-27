@@ -8,6 +8,7 @@ This is **Part-1** of *The Hobbit's Journey*, that contains working and deployab
 The Alpha White Label Lead Generation Flutter App utilizes the following technologies and frameworks:
 - Flutter: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. Visit https://docs.flutter.dev/ to learn more.
 - Dart: The programming language used by Flutter to build applications.
+- Vercel: Vercel to deploy the application on Web. See https://vercel.com/. You may use a platform of your choice to deploy on web as well.
 - GitHub: A web-based platform for version control and collaboration that allows developers to host and review code, manage projects, and build software alongside millions of other developers.
 
 ### Requirement Specifications:
@@ -46,7 +47,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
   - Use: Any of the Integrated Development Environment like Visual Studio Code recommended by Flutter. See https://docs.flutter.dev/get-started/editor to learn more.
   - use: Dart, DartPad
   - use: Best practices and Recommendations from Flutter 
-  - use: Vercel to deploy the applicaiton on Web. See https://vercel.com/. You may use a platform of your choice.
+  - preferred: Vercel 
 
 ### Test Cases - Applicable for Web, Android and iOS App.
 | Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
