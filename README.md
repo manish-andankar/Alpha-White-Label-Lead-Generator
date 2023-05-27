@@ -36,7 +36,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - *Naviage to Home Button:* [Back to Home]
 
 ### Solution Constraints:
-  - Deployable on three platformes - Web, Android and iOS Application.
+  - Deployable on three platforms - Web, Android and iOS Application.
   - Performance: Response time, Load Time, Resource Utilization, Application File/Build Size, No Errors, Warnings or Crashes.
   - Passes all test cases in the test suite on all three plarforms.
   - Passes all the automated unit test cases
