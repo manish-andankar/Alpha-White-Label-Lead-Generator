@@ -46,7 +46,10 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
   - use: Best practices and Recommendations from Flutter 
 
 ### Test Cases
-- 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 
 
