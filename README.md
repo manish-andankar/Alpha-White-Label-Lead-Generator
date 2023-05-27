@@ -42,7 +42,7 @@ Use PostgreSQL Interface to test the following
 | Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
 | ----------- | ----------- |----------- | ----------- | ----------- | ----------- |
 | 1 | Create User | Create User | Use sample data for user information  | Insert User record using relevant script. Visit https://cloud.google.com/spanner/docs/create-query-database-console to learn more.   | User record is inserted successfully. Execute SELECT query to retrieve the user information with Generated UserId |
-| 1 | Update User | Update User | Use sample data for user information  | Update Existing User record using relevant script. Visit https://cloud.google.com/spanner/docs/create-query-database-console to learn more.   | User record is updated successfully. Execute SELECT query to retrieve the updated user information |
+| 2 | Update User | Update User | Use sample data for user information  | Update Existing User record using relevant script. Visit https://cloud.google.com/spanner/docs/create-query-database-console to learn more.   | User record is updated successfully. Execute SELECT query to retrieve the updated user information |
 
 ### Deliverables
 - Infrastructure as Code (IaC): Cloud Spanner database schema and configuration for "White_Label_Lead_Generator_Database" using infrastructure as code tools like Terraform or Deployment Manager.
