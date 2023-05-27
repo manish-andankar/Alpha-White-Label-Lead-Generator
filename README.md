@@ -1,5 +1,6 @@
 # THJ1: Front-End Cross-Platform Flutter Application
-## Alpha White Label Lead Generator
+## Solution Description: Alpha White Label Lead Generator
+### Industry: Fin-Tech
 
 This is **Part-1** of *The Hobbit's Journey*, that contains working and deployable code and final software package for Front-End Cross-Platform application, built using Flutter.
 
@@ -28,9 +29,24 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - Upon clicking 'Wallet Connect' button, show the following,
     - *Success Message:* Congratulations {{FirstName}} {{LastName}} !! You are now connected to New Sacred. 
     *Note: In case of Success, & User did not Opt in for updates on Landing/Home Page, there is another chance to do it*
-    - Are you sure you do not want to miss out on those awesome updates that gives you access to exclusive New Sacred merchandise and opportunities to participate in events that benefits you?
-    - 
+    - *Opt-in CTA Message:* Are you sure you do not want to miss out on those awesome updates that gives you access to exclusive New Sacred merchandise and opportunities to participate in events that benefits you?
+      - Checkbox 
+      - [ ] Opt in for updates. 
+    - *Failure Message:* Could not connect to the wallet. Give it another try!
+    - *Naviage to Home Button:* [Back to Home]
 
+### Solution Constraints:
+  - Deployable as Web, Android and iOS Application
+  - Performance: Response time, Load Time, Resource Utilization, Application File/Build Size, No Errors, Warnings or Crashes.
+
+### Tools to use/avoid
+  - Use: Flutter
+  - Use: Any of the Integrated Development Environment like Visual Studio Code recommended by Flutter. See https://docs.flutter.dev/get-started/editor to learn more.
+  - use: Dart, DartPad
+  - use: Best practices and Recommendations from Flutter 
+
+### Test Cases
+- 
 
 
 
