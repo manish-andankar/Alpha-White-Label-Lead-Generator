@@ -12,7 +12,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 
 ### Requirement Specifications:
 - [ ] Landing/Home Page:
-  - User Provides Following Information
+  - *User Info:*User Provides Following Information
     - First name... (Input)
     - Last name... (Input)
     - Email... (Input)
@@ -36,8 +36,10 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - *Naviage to Home Button:* [Back to Home]
 
 ### Solution Constraints:
-  - Deployable as Web, Android and iOS Application
+  - Deployable on three platformes - Web, Android and iOS Application.
   - Performance: Response time, Load Time, Resource Utilization, Application File/Build Size, No Errors, Warnings or Crashes.
+  - Passes all test cases in the test suite on all three plarforms.
+  - Passes all the automated unit test cases
 
 ### Tools to use/avoid
   - Use: Flutter
@@ -45,11 +47,16 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
   - use: Dart, DartPad
   - use: Best practices and Recommendations from Flutter 
 
-### Test Cases
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+### Test Cases - Applicable for Web, Android and iOS App.
+| Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
+| ----------- | ----------- |----------- | ----------- | ----------- | ----------- |
+| 1 | Access the application | Access the applocation  | None | Web: Access the URL, Mobile: Install and Open the App | Application loads the landing page successfully. |
+| 2 | Provide user information | User provides information on the landing page | User Info | Provide User Info | The user input is validated as per the requirements. |
+| 3 | Opt-In Checkbox | Opt-In for Updates Checkbox | None | Click or Tap Opt-In for Updates checkbox | Opt-In checkbox toggles. |
+| 4 | Wallet Connect Success Opt-In| Wallet Connect is successful | User Info, Opt-In | Provide User Info, Opt-In is Checked, Click Wallet Connect Button | User Navigates to Result Page, with a *Success Message*. |
+| 4 | Wallet Connect Success Opt-Out| Wallet Connect is successful | User Info, Opt-Out | Provide User Info, Opt-In is Checked, Click Wallet Connect Button | User Navigates to Result Page, with a *Success Message*, followed by *Opt-in CTA Message* and Checkbox to Opt-In. |
+| 5 | Wallet Connect Failure | Wallet Connect fails | User Info, Opt-Out | Provide User Info with email *a@a.com*, Opt-In is *UNCHECKED*, Click Wallet Connect Button | User Navigates to Result Page, with a *Failure Message*, and page shows *Naviage to Home Button*|
+
 
 
 
