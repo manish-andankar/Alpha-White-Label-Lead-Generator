@@ -125,4 +125,4 @@ The Alpha White Label Lead Generation APIs utilizes the following technologies a
   - Completed Code checked in to the repository with a *unique folder name* that indicates your contribution. It is the *parent* folder for all deliverables.
   - APIs deployed on GCP and api links https://{fqdn}/user/ and https://{fqdn}/offer/ shared in a text file checked in with the name *api_references* under the folder *deliverables* within the *unique folder*.
   - Deployment instructions for with supporting materials and assets in the *deployment guide* folder.
-  - Documentation & Video Demo under the folder *documentation* within your *unique folder*. 
+  - Documentation & Video Demo under the folder *documentation* within the *unique folder*. 
