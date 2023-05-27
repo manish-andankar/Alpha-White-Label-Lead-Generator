@@ -17,6 +17,11 @@ This is **Part-2** of *The Last Stand*, that contains working and deployable cod
 ### Tools to use/avoid
 As described in [THJ](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/THJ/README.md) and [TLG](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/TLG/README.md).
 
+### Test Cases - Applicable for Web, Android and iOS App.
+| Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
+| ----------- | ----------- |----------- | ----------- | ----------- | ----------- |
+| 1 | Access the application | Access the applocation  | None | Landing Screen is presented to the user, interact with the screen, click Wallet Connect Button | Result Screen is shown with Success Message. *Note: All tests for [THJ](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/THJ/README.md) with valid details are applicable, except that tests with any dummy details to mock up a failure scenario, such as usage of a@a.com resulting in failure are not applicalble* |
+
 ### Deliverables
 - Same as [THJ](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/THJ/README.md) and [TLG](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/TLG/README.md), with an addition that the Flutter app is fully intergrated with fully funtional GCP Serverless User APIs.
 
