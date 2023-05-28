@@ -32,6 +32,11 @@ The branches are as follows:
 11. [TPR: Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TPR/README.md) *Milestone: The Phoenix's Rebirth*
 12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Milestone: The Final Convergence*
 
+*The Flow:*
+The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
+<img width="521" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d1078d5a-dce5-43d2-bcb3-192434b0d8eb">
+
+
 *The Rules:* 
 1. As a developer, you may choose to go solo, or team-up with other developers. Register yourself as Developer by visiting [HackGPT.tech](https://www.hackgpt.tech/).
 2. Each deverloper/team must create and submit their work in a folder that has *unique folder name* in the branch that corresponds to each step in the game. Developers may choose to have their own unique folder names based on their preference.
@@ -40,8 +45,9 @@ The branches are as follows:
   <img width="396" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/e244b145-0eb1-4a32-b162-e20e3f30cb8e">
   
   Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all 12 branches.
+  Make sure that your Fork is Public! It will be Public by default, but ensure that it is the case. 
 4. Submit the work in respective branch.
-5. 
+5. Collaborate with others to earn more, and learn more!!
 
 
 
