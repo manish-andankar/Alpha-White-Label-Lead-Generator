@@ -36,8 +36,10 @@ The branches are as follows:
 1. As a developer, you may choose to go solo, or team-up with other developers. Register yourself as Developer by visiting [HackGPT.tech](https://www.hackgpt.tech/).
 2. Each deverloper/team must create and submit their work in a folder that has *unique folder name* in the branch that corresponds to each step in the game. Developers may choose to have their own unique folder names based on their preference.
 3. Fork The Fork: 
+
   <img width="396" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/e244b145-0eb1-4a32-b162-e20e3f30cb8e">
-  Fork the Fork (uncheck the checkbox that says - clone only dev) to ensure that your fork has all 12 branches.
+  
+  Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all 12 branches.
 4. Submit the work in respective branch.
 5. 
 
