@@ -79,7 +79,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 
 *The Map:*
 <br/>
-<img width="622" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/7a10c8dc-a05c-484b-8170-c45b0067fa6c">
+<img width="620" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/10eeb301-1a32-4250-95e5-518ed45435ff">
 
 <br/>
 <br/>
