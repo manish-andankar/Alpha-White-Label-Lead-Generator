@@ -4,9 +4,10 @@
 
 **THIS IS DEV BRANCH - DO NOT CHECK-IN TO THIS BRANCH**
 
-**WORK ON THE FOLLOWING BRANCHES BY CREATING A UNIQUE NAME FOR YOUR FOLDER PREFIXED BY THE BRANCH NAME 
+*WORK ON THE FOLLOWING BRANCHES BY CREATING A UNIQUE NAME FOR YOUR FOLDER PREFIXED BY THE BRANCH NAME 
 EX: Individual: TLS-Manish_Andankar or TLS1-Manish_Andankar
-Team: TLS-Manish_Team**
+Team: TLS-Manish_Team*
+
 
 *The Game:* **Avalanche**
 
@@ -31,6 +32,7 @@ The branches are as follows:
 10. [TLS: Flutter Cross Platform Application integrated with All Of the Fully Functional GCP Serverless APIs and User Tracking with Google Analytics](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md) *Milestone: The Last Stand*
 11. [TPR: Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TPR/README.md) *Milestone: The Phoenix's Rebirth*
 12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Milestone: The Final Convergence*
+
 
 *The Flow:*
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
