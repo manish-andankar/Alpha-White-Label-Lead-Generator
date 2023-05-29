@@ -59,5 +59,6 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 6. You must merge the code from your fork to the respective branches above to submit your work.
 7. Do not step over each other's foot. You will be disqualified.
 8. You may choose to collaborate with other developers or teams to give yourself a chance to earn more, and learn more!!
+9. If you have any questions, join the Twitter Space / [Discord](discord.gg/RhUbmVzP) from HackGPT Hackathon at [@hackathonGPT](https://twitter.com/hackathonGPT), or reach out to Manish Andankar at [@andankar_manish](https://twitter.com/andankar_manish).
 
 All the Best!!
