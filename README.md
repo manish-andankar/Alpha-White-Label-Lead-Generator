@@ -8,7 +8,7 @@
 EX: Individual: TLS-Manish_Andankar or TLS1-Manish_Andankar
 Team: TLS-Manish_Team**
 
-*The Game:* **Project Avalanche**
+*The Game:* **Avalanche**
 
 <img width="815" alt="image_png" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/83aa139b-89a3-4cf0-b032-efe604441fa8">
 
@@ -48,7 +48,8 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
   Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all 12 branches.
   Make sure that your Fork is Public! It will be Public by default, but ensure that it is the case. 
 4. Submit the work in respective branch.
-5. Collaborate with others to earn more, and learn more!!
+5. Requirements of previous steps must be met, as part of a current step.
+6. You must merge the code from your fork to the respective branches above to submit your work. 
+7. You may choose to collaborate with other developers or teams to give yourself a chance to earn more, and learn more!!
 
-
-
+All the Best!!
