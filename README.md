@@ -40,7 +40,7 @@ The branches are as follows:
 9. [TLS3: Flutter Cross Platform Application integrated with Fully Functional GCP Serverless Offer (Coundown) APIs](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS3/README.md)
 10. [TLS: Flutter Cross Platform Application integrated with All Of the Fully Functional GCP Serverless APIs and User Tracking with Google Analytics](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md) *Milestone: The Last Stand*
 11. [TPR: Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TPR/README.md) *Milestone: The Phoenix's Rebirth*
-12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Milestone: The Final Convergence*
+12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Target: The Final Convergence*
 
 
 <br/>
