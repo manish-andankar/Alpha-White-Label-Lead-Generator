@@ -14,6 +14,7 @@ Team: TLS-Manish_Team*
 <img width="815" alt="image_png" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/83aa139b-89a3-4cf0-b032-efe604441fa8">
 
 
+
 *The Mission:* **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY**
 
 Each milestone in the game creates a building block for the next milestone.
@@ -34,10 +35,12 @@ The branches are as follows:
 12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Milestone: The Final Convergence*
 
 
+
 *The Flow:*
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
 
 <img width="521" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d1078d5a-dce5-43d2-bcb3-192434b0d8eb">
+
 
 
 *The Rules:* 
