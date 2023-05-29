@@ -14,6 +14,7 @@
 
 <br/>
 <br/>
+
 *The Game:* **Avalanche**
 
 <br/>
@@ -22,6 +23,7 @@
 
 <br/>
 <br/>
+
 *The Mission:* **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY**
 
 Each milestone in the game creates a building block for the next milestone.
@@ -44,6 +46,7 @@ The branches are as follows:
 
 <br/>
 <br/>
+
 *The Flow:*
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
 
