@@ -50,7 +50,7 @@ The branches are as follows:
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
 
 <br/>
-<img width="521" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d1078d5a-dce5-43d2-bcb3-192434b0d8eb">
+<img width="621" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/08e9df4a-3a2a-487d-931c-2a32c45872c9">
 
 
 <br/>
