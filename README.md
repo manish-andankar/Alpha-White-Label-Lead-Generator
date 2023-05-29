@@ -13,13 +13,13 @@
 *Team: TLS-Manish_Team*
 
 <br/>
-<br/>
 
 *The Game:* **Avalanche**
 
 <img width="815" alt="image_png" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/83aa139b-89a3-4cf0-b032-efe604441fa8">
 
 
+<br/>
 
 *The Mission:* **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY**
 
@@ -41,14 +41,14 @@ The branches are as follows:
 12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Milestone: The Final Convergence*
 
 
-
+<br/>
 *The Flow:*
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
 
 <img width="521" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d1078d5a-dce5-43d2-bcb3-192434b0d8eb">
 
 
-
+<br/>
 *The Rules:* 
 1. As a developer, you may choose to go solo, or team-up with other developers. Register yourself as Developer by visiting [HackGPT.tech](https://www.hackgpt.tech/).
 2. Each deverloper/team must create and submit their work in a folder that has *unique folder name* in the branch that corresponds to each step in the game. Developers may choose to have their own unique folder names based on their preference.
@@ -56,9 +56,9 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 
   <img width="396" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/e244b145-0eb1-4a32-b162-e20e3f30cb8e">
   
-  Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all the branches.
-  Make sure that your Fork is Public! It will be Public by default, but ensure that it is the case.
-  If you do not know how to use GitHub, then you can learn it from their [documentation](https://docs.github.com/en)
+  - Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all the branches.
+  - Make sure that your Fork is Public! It will be Public by default, but ensure that it is the case.
+  - If you do not know how to use GitHub, then you can learn it from their [documentation](https://docs.github.com/en)
   
 4. Submit the work in respective branch ONLY.
 5. Requirements of previous steps must be met, as part of the current step.
