@@ -50,11 +50,14 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 
   <img width="396" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/e244b145-0eb1-4a32-b162-e20e3f30cb8e">
   
-  Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all 12 branches.
-  Make sure that your Fork is Public! It will be Public by default, but ensure that it is the case. 
-4. Submit the work in respective branch.
-5. Requirements of previous steps must be met, as part of a current step.
-6. You must merge the code from your fork to the respective branches above to submit your work. 
-7. You may choose to collaborate with other developers or teams to give yourself a chance to earn more, and learn more!!
+  Fork the Fork (**UNCHECK** the checkbox that says - clone only dev) to ensure that your fork has all the branches.
+  Make sure that your Fork is Public! It will be Public by default, but ensure that it is the case.
+  If you do not know how to use GitHub, then you can learn it from their [documentation](https://docs.github.com/en)
+  
+4. Submit the work in respective branch ONLY.
+5. Requirements of previous steps must be met, as part of the current step.
+6. You must merge the code from your fork to the respective branches above to submit your work.
+7. Do not step over each other's foot. You will be disqualified.
+8. You may choose to collaborate with other developers or teams to give yourself a chance to earn more, and learn more!!
 
 All the Best!!
