@@ -24,7 +24,7 @@
 <br/>
 <br/>
 
-*The Mission:* **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY**
+*The Mission:* **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY!**
 
 Each milestone in the game creates a building block for the next milestone.
 Each step has its separate github branch. These steps has dependencies, as shown in the network diagram above.
