@@ -81,6 +81,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 <br/>
 <img width="620" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/10eeb301-1a32-4250-95e5-518ed45435ff">
 
+Learn more about Wardley Mapping [here](https://lwm.events/gofast)
 <br/>
 <br/>
 
