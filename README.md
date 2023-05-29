@@ -5,9 +5,13 @@
 **THIS IS DEV BRANCH - DO NOT CHECK-IN TO THIS BRANCH**
 
 *WORK ON THE FOLLOWING BRANCHES BY CREATING A UNIQUE NAME FOR YOUR FOLDER PREFIXED BY THE BRANCH NAME*
-*For example:* 
+
+*For example:*
+
 *Individual: TLS-Manish_Andankar or TLS1-Manish_Andankar*
+
 *Team: TLS-Manish_Team*
+
 
 
 
