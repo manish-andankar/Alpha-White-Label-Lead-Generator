@@ -27,6 +27,11 @@ This is *The Phoenix's Rebirth*, that contains working and deployable code for W
     - In case it is not installed, the app presents option to install it and set it up.
     - User Sign-in to the Phantom Wallet through the Phantom Wallet extension, Provides consent to connect the wallet with the Web app, the web app fetches the SOL Account address and temporarily persisits it in the broswer session as long as the browser is running.
 
+*Error Handling:*
+If the user does not provide consent to connect to the Phantom wallet, or the application is unable to connect to the Phantom wallet, then an appropriate error message is displayed on the result screen. As an illustration see the screenshot below:
+<img width="694" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/fb977ba1-b430-4981-8a22-3d6c6830c96a">
+
+
 ### Solution Constraints:
 - The Sol Address and UserInfo (along with OptIn) is not sent to the server upon successful Wallet Connect.
 
