@@ -12,7 +12,8 @@
 
 *Team: TLS-Manish_Team*
 
-*The Story of CodeCrafters:*
+<br/>
+**The Story of CodeCrafters:**
 
 Once upon a time in the vast realm of software development, there existed a team of skilled developers known as the "CodeCrafters." Their reputation for turning intricate ideas into magnificent software solutions had spread far and wide, making them highly sought-after in the tech industry.
 
