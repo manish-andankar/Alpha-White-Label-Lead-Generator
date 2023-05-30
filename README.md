@@ -47,9 +47,12 @@ The sample application url https://solana-labs.github.io/wallet-adapter/example/
 
 *Illustrations (For reference only):*
 
-1. Mobile Apps(iOS and Android): [Watch the illustrative video for Mobile Apps.](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/606f63b9-3583-457c-a715-a31d797997c5)
+1. Mobile Apps(iOS and Android): [Watch an illustrative video for Mobile Apps.](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/606f63b9-3583-457c-a715-a31d797997c5)
 
-2. [Web App - Browsers]
+2. Web App - Browsers: [Watch an illustrative video for Web App.](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/ae345485-8e43-4d85-a3a5-82f8644c045d)
+
+
+
 
 
 
