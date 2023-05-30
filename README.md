@@ -41,8 +41,8 @@ As described in [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-
 The sample application url https://solana-labs.github.io/wallet-adapter/example/ can be accessed on the Web Browser or the Browser in the Android/iOS device to understand the requirements clearly.
 
 *Illustrations (For reference only):*
-<br/>
-1. [Mobile Apps - iOS and Android] (https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/606f63b9-3583-457c-a715-a31d797997c5)
+
+1. [Mobile Apps iOS and Android] (https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/606f63b9-3583-457c-a715-a31d797997c5)
 
 2. [Web App - Browsers]
 
