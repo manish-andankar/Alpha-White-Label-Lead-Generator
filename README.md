@@ -82,9 +82,13 @@ The branches are as follows:
 <br/>
 
 *The Flow:*
-The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserIno API. The Countdown Timer starts going down through a sample API call.
+The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserInfo API. The Countdown Timer starts going down based on the future datetime returned by the Coundown API and the offer related message from the same API. See the flow below.
+
+![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/fdf3ab82-1770-4dce-a4b7-be60fd2d1bb7)
 
 <br/>
+<br/>
+*The Wardley Map*
 <img width="621" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/08e9df4a-3a2a-487d-931c-2a32c45872c9">
 
 
