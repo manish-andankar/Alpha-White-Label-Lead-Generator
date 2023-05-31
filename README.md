@@ -11,8 +11,11 @@ The working prototype of user interface utilizes the following technologies and 
 
 ### Requirement Specifications:
 - The Landing and Result screens is required to be built, with user inputs and user experience as described in the README.md file at [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md)
-- The mockup and necessary digital assets and links will be provided soon.
+- The mockup and necessary digital assets and links may or may not be provided.
 - Use Figma and your creativity to create a working prototype showing the Responsive Landing and Result Screens to achieve desired performance and user exprience.
+- The flow:
+  ![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/98290b0d-6f11-49f1-aead-999802e1c6b1)
+ 
 
 ### Solution Constraints:
 - Working prototype need to showcase all test cases described in the README.md file at [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md)
