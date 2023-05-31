@@ -37,6 +37,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - *Naviage to Home Button:* [Back to Home]
 
 *The Flow:*
+<br/>
 https://user-images.githubusercontent.com/128000185/242423195-98290b0d-6f11-49f1-aead-999802e1c6b1.png
 
 ### Solution Constraints:
