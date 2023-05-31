@@ -14,9 +14,9 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 ### Requirement Specifications:
 - [ ] Landing/Home Page:
   - *User Info:*User Provides Following Information
-    - First name... (Input)
-    - Last name... (Input)
-    - Email... (Input)
+    - First name... (Input, Required)
+    - Last name... (Input, Required)
+    - Email... (Input, Required)
     - Country Code... (Dropdown of Country)
     - Mobile Number... (Input)
     - Twitter handle... (Input)
