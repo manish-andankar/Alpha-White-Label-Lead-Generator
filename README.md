@@ -36,6 +36,9 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
     - *Failure Message:* Could not connect to the wallet. Give it another try!
     - *Naviage to Home Button:* [Back to Home]
 
+*The Flow:*
+https://user-images.githubusercontent.com/128000185/242423195-98290b0d-6f11-49f1-aead-999802e1c6b1.png
+
 ### Solution Constraints:
   - Deployable on three platforms - Web, Android and iOS Application.
   - Performance: Response time, Load Time, Resource Utilization, Application File/Build Size, No Errors, Warnings or Crashes.
