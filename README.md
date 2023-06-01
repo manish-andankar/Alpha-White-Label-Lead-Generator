@@ -95,7 +95,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 <br/>
 
 **THE BOUNTIES:**
-| Sr No | STEP | Milestone | BRANCH LINK |  BOUNTY |
+| Sr No | STEP | Milestone | BRANCH README.MD LINK |  BOUNTY |
 | ----------- | ----------- |----------- | ----------- | ----------- |
 | 1 | Front-End Cross-Platform Flutter Application | - | [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md) | 100 USD |
 | 2 | User Interface Design and User Experience | - | [THJ2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ2/README.md) | 100 USD |
