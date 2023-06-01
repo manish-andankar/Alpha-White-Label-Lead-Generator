@@ -112,6 +112,10 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 
 <br/>
 <br/>
+*Total Bounty:* **2000 USD**
+
+<br/>
+<br/>
 
 *The Rules:*
   1. As a developer, you may choose to go solo, or team-up with other developers. Register yourself as Developer by visiting [HackGPT.tech](https://www.hackgpt.tech/).
