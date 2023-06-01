@@ -4,7 +4,7 @@
 
 **THIS IS DEV BRANCH - DO NOT CHECK-IN TO THIS BRANCH**
 
-*WORK ON THE BRANCHES SPECIFIC TO EACH STEP IN THE PROJECT, BY CREATING A UNIQUE NAME FOR YOUR FOLDER PREFIXED BY THE BRANCH NAME YOU ARE WORKING IN*
+**WORK ON THE BRANCHES SPECIFIC TO EACH STEP IN THE PROJECT, BY CREATING A UNIQUE NAME FOR YOUR FOLDER PREFIXED BY THE BRANCH NAME YOU ARE WORKING IN**
 
 *For example:*
 
@@ -50,7 +50,7 @@ And so, the tale of the CodeCrafters and their game merged into the annals of so
 <br/>
 <br/>
 
-*The Game:* **Avalanche**
+**The Game:** **Avalanche**
 <br/>
 <img width="815" alt="image_png" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/83aa139b-89a3-4cf0-b032-efe604441fa8">
 
@@ -58,7 +58,7 @@ And so, the tale of the CodeCrafters and their game merged into the annals of so
 <br/>
 <br/>
 
-*The Mission:* **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY!**
+**The Mission:** **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY!**
 
 Each milestone in the game creates a building block for the next milestone.
 Each step has its separate github branch. These steps has dependencies, as shown in the network diagram above.
@@ -81,15 +81,10 @@ The branches are as follows:
 <br/>
 <br/>
 
-*The Flow:*
+**The Flow:**
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserInfo API. The Countdown Timer starts going down based on the future datetime returned by the Coundown API and the offer related message from the same API. See the flow below.
 
 ![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d39aeeee-5f33-4a7e-82cd-49c55d108a71)
-
-<br/>
-<br/>
-*The Wardley Map*
-<img width="621" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/08e9df4a-3a2a-487d-931c-2a32c45872c9">
 
 <br/>
 <br/>
@@ -115,7 +110,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 <br/>
 <br/>
 
-*The Rules:*
+**The Rules:**
   1. As a developer, you may choose to go solo, or team-up with other developers. Register yourself as Developer by visiting [HackGPT.tech](https://www.hackgpt.tech/).
   2. Each deverloper/team must create and submit their work in a folder that has *unique folder name* in the branch that corresponds to each step in the game. Developers may choose to have their own unique folder names based on their preference.
   3. Fork The Fork: 
@@ -138,7 +133,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 <br/>
 <br/>
 
-*The Map:*
+**The Wardley Map:**
 <br/>
 <img width="619" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/1e9a935b-68c3-4cef-b496-9c24f9f6e5af">
 
