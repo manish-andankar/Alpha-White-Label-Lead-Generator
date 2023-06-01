@@ -112,6 +112,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 
 <br/>
 <br/>
+
 *Total Bounty:* **2000 USD**
 
 <br/>
