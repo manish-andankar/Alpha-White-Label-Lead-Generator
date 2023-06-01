@@ -140,7 +140,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 
 *The Map:*
 <br/>
-<img width="620" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/10eeb301-1a32-4250-95e5-518ed45435ff">
+<img width="619" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/1e9a935b-68c3-4cef-b496-9c24f9f6e5af">
 
 Learn more about Wardley Mapping [here](https://lwm.events/gofast).
 <br/>
