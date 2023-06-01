@@ -133,7 +133,7 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
   8. No tolerance for Foul play. Do not step over each other's foot. You will be disqualified.
   9. Do NOT modify or merge ReadMe files from any branch, including this one. You will be disqualified.
   10. You may choose to collaborate with other developers or teams to give yourself a chance to earn more, and learn more!!
-  11. If you have any questions, need to collaborate with others or get the live updates, you may leverage the [Announcements, Discussion Forums, Q&A](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/discussions), join the Twitter Space / [Discord](discord.gg/RhUbmVzP) from HackGPT Hackathon at [@hackathonGPT](https://twitter.com/hackathonGPT), or reach out to Manish Andankar at [@andankar_manish](https://twitter.com/andankar_manish).
+  11. If you have any questions, need to collaborate with others or get the live updates, you may leverage the [Announcements, Discussion Forums, Q&A](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/discussions), join the Twitter Space / [Discord](https://discord.gg/RhUbmVzP) from HackGPT Hackathon at [@hackathonGPT](https://twitter.com/hackathonGPT), or reach out to Manish Andankar at [@andankar_manish](https://twitter.com/andankar_manish).
 
 <br/>
 <br/>
