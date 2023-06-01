@@ -14,7 +14,7 @@ The working prototype of user interface utilizes the following technologies and 
 - The mockup and necessary digital assets and links may or may not be provided.
 - Use Figma and your creativity to create a working prototype showing the Responsive Landing and Result Screens to achieve desired performance and user exprience.
 - The flow:
-  ![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/98290b0d-6f11-49f1-aead-999802e1c6b1)
+  ![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/2f3b7a11-715a-49ef-94a1-05a96670fadf)
  
 
 ### Solution Constraints:
