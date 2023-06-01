@@ -15,6 +15,7 @@
 <br/>
 
 **The Story of CodeCrafters:**
+<br/>
 Once upon a time in the vast realm of software development, there existed a team of skilled developers known as the "CodeCrafters." Their reputation for turning intricate ideas into magnificent software solutions had spread far and wide, making them highly sought-after in the tech industry.
 
 One fine day, a message arrived in their virtual headquarters, revealing an exciting new project… Project “Avalanche”. The team gathered around their digital campfire, eagerly anticipating the adventure that lay ahead. The message contained a link, leading them to a GitHub repository—the gateway to their next challenge.
