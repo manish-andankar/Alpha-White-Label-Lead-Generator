@@ -111,7 +111,6 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 | 12 | Alpha White Label Lead Generator (Release Candidate) | **The Final Convergence** | [TFC](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) | 50 USD |
 
 <br/>
-<br/>
 
 *Total Bounty:* **2000 USD**
 
