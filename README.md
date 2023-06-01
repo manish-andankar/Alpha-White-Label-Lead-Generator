@@ -64,18 +64,18 @@ Each milestone in the game creates a building block for the next milestone.
 Each step has its separate github branch. These steps has dependencies, as shown in the network diagram above.
 
 The branches are as follows:
-1. [THJ1: Front-End Cross-Platform Flutter Application](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md)
-2. [THJ2: User Interface Design and User Experience](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ2/README.md)
-3. [THJ: Flutter Cross Platform Application integrated with User Interface Design and User Experience](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ/README.md) *Milestone: The Hobbit's Journey*
-4. [TLG1: GCP Serverless APIs for White Label Lead Generator App](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG1/README.md)
-5. [TLG2: GCP Cloud Spanner database for White Label Lead Generator App](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG2/README.md)
-6. [TLG: GCP Serverless APIs integrated With GCP Cloud Spanner Database for White Label Lead Generator App](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG/README.md) *Milestone: Through the Looking Glass*
-7. [TLS1: User Tracking And Analytics using Google Analytics](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS1/README.md)
-8. [TLS2: Flutter Cross Platform Application integrated with Fully Functional GCP Serverless User APIs](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS2/README.md)
-9. [TLS3: Flutter Cross Platform Application integrated with Fully Functional GCP Serverless Offer (Coundown) APIs](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS3/README.md)
-10. [TLS: Flutter Cross Platform Application integrated with All Of the Fully Functional GCP Serverless APIs and User Tracking with Google Analytics](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md) *Milestone: The Last Stand*
-11. [TPR: Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TPR/README.md) *Milestone: The Phoenix's Rebirth*
-12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) *Target: The Final Convergence*
+1. [THJ1: Front-End Cross-Platform Flutter Application](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/THJ1)
+2. [THJ2: User Interface Design and User Experience](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/THJ2)
+3. [THJ: Flutter Cross Platform Application integrated with User Interface Design and User Experience](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/THJ) *Milestone: The Hobbit's Journey*
+4. [TLG1: GCP Serverless APIs for White Label Lead Generator App](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLG1)
+5. [TLG2: GCP Cloud Spanner database for White Label Lead Generator App](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLG2)
+6. [TLG: GCP Serverless APIs integrated With GCP Cloud Spanner Database for White Label Lead Generator App](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLG) *Milestone: Through the Looking Glass*
+7. [TLS1: User Tracking And Analytics using Google Analytics](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLS1)
+8. [TLS2: Flutter Cross Platform Application integrated with Fully Functional GCP Serverless User APIs](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLS2)
+9. [TLS3: Flutter Cross Platform Application integrated with Fully Functional GCP Serverless Offer (Coundown) APIs](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLS3)
+10. [TLS: Flutter Cross Platform Application integrated with All Of the Fully Functional GCP Serverless APIs and User Tracking with Google Analytics](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TLS) *Milestone: The Last Stand*
+11. [TPR: Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TPR) *Milestone: The Phoenix's Rebirth*
+12. [TFC: Alpha White Label Lead Generator (Release Candidate)](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/tree/TFC) *Target: The Final Convergence*
 
 
 <br/>
