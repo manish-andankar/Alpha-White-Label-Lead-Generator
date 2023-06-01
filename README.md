@@ -38,7 +38,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 
 *The Flow:*
 <br/>
-![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/e444b470-9393-4f48-a86d-0fec55f61a08)
+![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/ba79db91-40a3-4eb2-b57e-f803a1c4c0c7)
 
 
 ### Solution Constraints:
