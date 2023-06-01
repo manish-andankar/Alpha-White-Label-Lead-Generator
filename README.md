@@ -110,8 +110,6 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 | 11 | Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication | **The Phoenix's Rebirth** | [TPR](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TPR/README.md) | **1100 USD** |
 | 12 | Alpha White Label Lead Generator (Release Candidate) | **The Final Convergence** | [TFC](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) | 50 USD |
 
-<br/>
-
 *Total Bounty:* **2000 USD**
 
 <br/>
