@@ -84,7 +84,7 @@ The branches are as follows:
 *The Flow:*
 The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserInfo API. The Countdown Timer starts going down based on the future datetime returned by the Coundown API and the offer related message from the same API. See the flow below.
 
-![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/fdf3ab82-1770-4dce-a4b7-be60fd2d1bb7)
+![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d39aeeee-5f33-4a7e-82cd-49c55d108a71)
 
 <br/>
 <br/>
