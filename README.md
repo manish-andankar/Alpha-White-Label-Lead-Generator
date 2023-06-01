@@ -91,6 +91,24 @@ The user accesses the app, provides user information and Connect to Wallet. Upon
 *The Wardley Map*
 <img width="621" alt="image" src="https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/08e9df4a-3a2a-487d-931c-2a32c45872c9">
 
+<br/>
+<br/>
+
+**THE BOUNTIES:**
+| Sr No | STEP | Milestone | BRANCH LINK |  BOUNTY |
+| ----------- | ----------- |----------- | ----------- | ----------- |
+| 1 | Front-End Cross-Platform Flutter Application | - | [THJ1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ1/README.md) | 100 USD |
+| 2 | User Interface Design and User Experience | - | [THJ2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ2/README.md) | 100 USD |
+| 3 | Flutter Cross Platform Application integrated with User Interface Design and User Experience | **The Hobbit's Journey** | [THJ](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/THJ/README.md) | 100 USD |
+| 4 | GCP Serverless APIs for White Label Lead Generator App | - | [TLG1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG1/README.md) | 100 USD |
+| 5 | GCP Cloud Spanner database for White Label Lead Generator App | - | [TLG2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG2/README.md) | 100 USD |
+| 6 | GCP Serverless APIs integrated With GCP Cloud Spanner Database for White Label Lead Generator App | **Through the Looking Glass** | [TLG](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG/README.md) | 100 USD |
+| 7 | User Tracking And Analytics using Google Analytics | - | [TLS1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS1/README.md) | 50 USD |
+| 8 | Flutter Cross Platform Application integrated with Fully Functional GCP Serverless User APIs | - | [TLS2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS2/README.md) | 50 USD |
+| 9 | Flutter Cross Platform Application integrated with Fully Functional GCP Serverless Offer (Coundown) APIs | - | [TLS3](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS3/README.md) | 50 USD |
+| 10 | Flutter Cross Platform Application integrated with All Of the Fully Functional GCP Serverless APIs and User Tracking with Google Analytics | **The Last Stand** | [TLS](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLS/README.md) | 100 USD |
+| 11 | Phantom Wallet Connect for White Label Lead Generator to capture Sol Address for the User authentication | **The Phoenix's Rebirth** | [TPR](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TPR/README.md) | **1100 USD** |
+| 12 | Alpha White Label Lead Generator (Release Candidate) | **The Final Convergence** | [TFC](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TFC/README.md) | 50 USD |
 
 <br/>
 <br/>
