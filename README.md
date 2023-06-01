@@ -57,7 +57,9 @@ And so, the tale of the CodeCrafters and their game merged into the annals of so
 <br/>
 <br/>
 
-**The Mission:** **Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY!**
+**The Mission:** 
+<br/>
+**Build a PRODUCTION READY White Label Lead Generator App that runs on Web, Android and iOS platform, and captures user information, their preference to subscribe for updates and their SOL Address after verifying their identity by connecting to Phantom Wallet. Simple, but NOT EASY!**
 
 Each milestone in the game creates a building block for the next milestone.
 Each step has its separate github branch. These steps has dependencies, as shown in the network diagram above.
@@ -81,7 +83,8 @@ The branches are as follows:
 <br/>
 
 **The Flow:**
-The user accesses the app, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates, and stores it in GCP Cloud Spanner DB via UserInfo API. The Countdown Timer starts going down based on the future datetime returned by the Coundown API and the offer related message from the same API. See the flow below.
+<br/>
+The user accesses the app on any of the Web, iOS, and Android platforms, provides user information and Connect to Wallet. Upon successful connection, the SOL Addres along with the user information and opt-in for updates are captured, and stored in GCP Cloud Spanner DB via UserInfo API. The Countdown Timer starts ticking based on the future datetime setup in the DB and returned by the Coundown API and the offer related message from the same API. See the flow below.
 
 ![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/d39aeeee-5f33-4a7e-82cd-49c55d108a71)
 
