@@ -5,8 +5,8 @@
 This is **Final Phase** of *Through the Looking Glass*, that contains working and deployable code and final software package for APIs integrated with GCP Cloud Spanner built and deployed using modern serverless paradigm on GCP.
 
 ### Tech Stack
-- Tech Stack of [TLG1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/TLG1/README.md).
-- Tech Stack of [TLG2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/edit/TLG2/README.md).
+- Tech Stack of [TLG1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG1/README.md).
+- Tech Stack of [TLG2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG2/README.md).
 
 ### Requirement Specifications:
 - Integrate [TLG1](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG1/README.md) and [TLG2](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/blob/TLG2/README.md) to create the final GCP Serverless APIs that interact with GCP Cloud Spanner Database for White Label Lead Generator App.
