@@ -57,7 +57,7 @@ class LandingPageState extends State<LandingPage> {
               Container(
                 padding: const EdgeInsets.only(bottom: 5.0),
                 child: Image.asset(
-                  '../assets/logo/logo.png', // Replace with your own logo asset
+                  'assets/logo/logo.png', // Replace with your own logo asset
                   height: 40.0,
                   width: 40.0,
                 ),
