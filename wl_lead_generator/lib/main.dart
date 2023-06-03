@@ -6,7 +6,9 @@ void main() {
   // WidgetsFlutterBinding.ensureInitialized();
   // SolanaWalletAdapterPlatform.instance.setProvider(MyApp)
   //await SolanaWalletAdapter.initialize();
+
   SolanaWalletAdapterPlatform.instance.setProvider(AppInfo.phantom);
+
   runApp(const MyApp());
 }
 

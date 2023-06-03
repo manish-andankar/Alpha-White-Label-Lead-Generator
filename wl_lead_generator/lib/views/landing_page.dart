@@ -6,8 +6,6 @@ import 'package:solana_wallet_adapter/solana_wallet_adapter.dart';
 import 'result_page.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 
-
-
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
 
@@ -17,8 +15,9 @@ class LandingPage extends StatefulWidget {
 
 class LandingPageState extends State<LandingPage> {
   final _formKey = GlobalKey<FormState>();
-  Object? _output;
-  
+  AuthorizeResult? _output;
+  String? _capturedAddress;
+
   // final AppInfo appInfo = AppInfo(
   //   name: 'My App',
   //   // icon: 'https://my-app.com/icon.png',
@@ -26,16 +25,15 @@ class LandingPageState extends State<LandingPage> {
 
   // 1. Create instance of [SolanaWalletAdapter].
   final adapter = SolanaWalletAdapter(
-     const AppIdentity(),
-      // uri: Uri.https('merigo.com'),
-      // icon: Uri.parse('favicon.png'),
-      // name: 'Example App',
+    const AppIdentity(),
+    // uri: Uri.https('merigo.com'),
+    // icon: Uri.parse('favicon.png'),
+    // name: 'Example App',
     //),
-    // NOTE: CONNECT THE WALLET APPLICATION 
+    // NOTE: CONNECT THE WALLET APPLICATION
     // TO THE SAME NETWORK.
     cluster: Cluster.devnet,
   );
-
 
   bool _optIn = false;
   String? _firstName;
@@ -106,12 +104,12 @@ class LandingPageState extends State<LandingPage> {
                   },
                   validator: (value) {
                     // Add email validation using regex
-                    RegExp emailRegex = RegExp(r'^[\w-]+(\.[\w-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,})$');
+                    RegExp emailRegex = RegExp(
+                        r'^[\w-]+(\.[\w-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,})$');
 
                     if (value == null || value.isEmpty) {
                       return 'Please enter your email';
-                    }
-                    else if (!emailRegex.hasMatch(value)) {
+                    } else if (!emailRegex.hasMatch(value)) {
                       return 'Please enter a valid email';
                     }
                     return null;
@@ -125,18 +123,18 @@ class LandingPageState extends State<LandingPage> {
                   },
                 ),
                 PhoneFormField(
-                  key: const Key('phone-field'),
-                  defaultCountry: IsoCode.US,
-                  showDialCode: true,
-                  onChanged: (phone) => { 
-                    _mobileNumber = phone?.countryCode,
-                    debugPrint('debug:$phone')
-                  }
-                  //  decoration: const InputDecoration(
-                  //     labelText: 'Mobile Number',          // default to null
-                  //     border: OutlineInputBorder(), // default to UnderlineInputBorder(),
-                  //   ),
-                ),
+                    key: const Key('phone-field'),
+                    defaultCountry: IsoCode.US,
+                    showDialCode: true,
+                    onChanged: (phone) => {
+                          _mobileNumber = phone?.countryCode,
+                          debugPrint('debug:$phone')
+                        }
+                    //  decoration: const InputDecoration(
+                    //     labelText: 'Mobile Number',          // default to null
+                    //     border: OutlineInputBorder(), // default to UnderlineInputBorder(),
+                    //   ),
+                    ),
                 // TextFormField(
                 //   decoration: const InputDecoration(labelText: 'Country Code'),
                 //   onChanged: (value) {
@@ -199,7 +197,7 @@ class LandingPageState extends State<LandingPage> {
                   controlAffinity: ListTileControlAffinity.leading,
                 ),
                 ElevatedButton(
-                  onPressed: () {
+                  onPressed: () async {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
                       // Navigator.push(
@@ -220,17 +218,22 @@ class LandingPageState extends State<LandingPage> {
                       // );
                       // SolanaWalletAdapter.initialize();
                       // adapter.setProvider(),
-                      adapter.authorize()
-                            .then((result) => setState(() => _output = result.toJson()))
-                            .catchError((error) => setState(() => _output = error));
-                      debugPrint('debug:$_output');
 
+                      adapter
+                          .authorize()
+                          .then((result) => setState(() {
+                                _output = result;
+                                _capturedAddress = _output
+                                    ?.accounts.first.addressBase58 as String;
+                              }))
+                          .catchError(
+                              (error) => setState(() => _output = error));
+                      debugPrint('debug:$_output');
                     }
                   },
                   child: const Text('Wallet Connect'),
                 ),
-                if (_output != null)
-                  Text(_output.toString()),
+                if (_output != null) Text('Address: $_capturedAddress'),
               ],
             ),
           ),
