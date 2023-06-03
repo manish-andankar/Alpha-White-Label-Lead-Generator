@@ -1,9 +1,13 @@
 // import 'dart:html';
 // import 'dart:js_interop';
 
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:solana_wallet_adapter/solana_wallet_adapter.dart';
+import 'package:wl_lead_generator/widgets/error_box.dart';
 import 'result_page.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 
 class LandingPage extends StatefulWidget {
@@ -32,7 +36,7 @@ class LandingPageState extends State<LandingPage> {
     //),
     // NOTE: CONNECT THE WALLET APPLICATION
     // TO THE SAME NETWORK.
-    cluster: Cluster.devnet,
+    cluster: Cluster.mainnet,
   );
 
   bool _optIn = false;
@@ -43,14 +47,111 @@ class LandingPageState extends State<LandingPage> {
   String? _mobileNumber;
   String? _twitterHandle;
   String? _discordHandle;
+  String? walletAddress;
+
+  // Wallet not found modal
+  Future<void> _showPhantomModal() async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap button!
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Phantom Wallet not found'),
+          content: const SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text(
+                    'Phantom Wallet was not detected on this system. Would you like to go to the install page?'),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('No'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('Yes'),
+              onPressed: () {
+                Navigator.of(context).pop();
+                final appId =
+                    Theme.of(context).platform == TargetPlatform.android
+                        ? AppInfo.phantom.androidId
+                        : AppInfo.phantom.iosId;
+                if (Theme.of(context).platform == TargetPlatform.iOS) {
+                  launchUrlString('https://apps.apple.com/app/$appId');
+                } else if (Theme.of(context).platform ==
+                    TargetPlatform.android) {
+                  launchUrlString('market://details?id=$appId');
+                } else {
+                  launchUrlString('https://phantom.app/');
+                }
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  // submit data
+  Future<int> submitData() async {
+    final url =
+        'http://localhost:3000/submit'; // Replace with your API endpoint
+
+    // Create a map of the data to be sent
+    final data = {
+      'firstName': _firstName,
+      'lastName': _lastName,
+      'email': _email,
+      'countryCode': _countryCode,
+      'mobileNumber': _mobileNumber,
+      'twitterHandle': _twitterHandle,
+      'discordHandle': _discordHandle,
+      'optedIn': _optIn.toString(),
+      'walletAddress': walletAddress,
+    };
+
+    final headers = {
+      'Content-Type': 'application/json',
+    };
+
+    final jsonData = json.encode(data);
+
+    // Send a POST request to the server
+    final response = await http.post(
+      Uri.parse(url),
+      headers: headers,
+      body: jsonData,
+    );
+
+    // Check the response status
+    if (response.statusCode == 200) {
+      // Data submitted successfully
+      print('Data submitted successfully');
+    } else {
+      // Error occurred while submitting data
+      print('Error submitting data. Status code: ${response.statusCode}');
+    }
+    return response.statusCode;
+  }
+
+  Object? output;
+  dynamic capturedError;
+  bool switchValue = true;
 
   @override
   Widget build(BuildContext context) {
+    TextEditingController txtController = TextEditingController(
+        text: walletAddress ?? "No Wallet Address Captured");
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Lead Generator Application'),
         flexibleSpace: Align(
-          alignment: Alignment.center,
+          alignment: Alignment.centerLeft,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -119,6 +220,7 @@ class LandingPageState extends State<LandingPage> {
                     // You can perform additional validation or other actions here
                     if (_formKey.currentState!.validate()) {
                       // Field is valid, proceed with the desired action
+                      // json post
                     }
                   },
                 ),
@@ -135,32 +237,6 @@ class LandingPageState extends State<LandingPage> {
                     //     border: OutlineInputBorder(), // default to UnderlineInputBorder(),
                     //   ),
                     ),
-                // TextFormField(
-                //   decoration: const InputDecoration(labelText: 'Country Code'),
-                //   onChanged: (value) {
-                //     _countryCode = value;
-                //   },
-                //   validator: (value) {
-                //     if (_mobileNumber!.isNotEmpty &&
-                //         (value == null || value.isEmpty)) {
-                //       return 'Please enter your country code';
-                //     }
-                //     return null;
-                //   },
-                // ),
-                // TextFormField(
-                //   decoration: const InputDecoration(labelText: 'Mobile Number'),
-                //   onChanged: (value) {
-                //     _mobileNumber = value;
-                //   },
-                //   validator: (value) {
-                //     if (_countryCode!.isNotEmpty &&
-                //         (value == null || value.isEmpty)) {
-                //       return 'Please enter your mobile number';
-                //     }
-                //     return null;
-                //   },
-                // ),
                 TextFormField(
                   decoration:
                       const InputDecoration(labelText: 'Twitter Handle'),
@@ -196,44 +272,85 @@ class LandingPageState extends State<LandingPage> {
                   },
                   controlAffinity: ListTileControlAffinity.leading,
                 ),
-                ElevatedButton(
-                  onPressed: () async {
-                    if (_formKey.currentState!.validate()) {
-                      _formKey.currentState!.save();
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //     builder: (context) => ResultPage(
-                      //       walletConnected: true, // replace with actual value
-                      //       firstName: _firstName!,
-                      //       lastName: _lastName!, // replace with actual value
-                      //       email: _email!,
-                      //       countryCode: _countryCode!,
-                      //       mobileNumber: _mobileNumber!,
-                      //       twitterHandle: _twitterHandle,
-                      //       discordHandle: _discordHandle,
-                      //       optedIn: _optIn,
-                      //     ),
-                      //   ),
-                      // );
-                      // SolanaWalletAdapter.initialize();
-                      // adapter.setProvider(),
-
-                      adapter
-                          .authorize()
-                          .then((result) => setState(() {
-                                _output = result;
-                                _capturedAddress = _output
-                                    ?.accounts.first.addressBase58 as String;
-                              }))
-                          .catchError(
-                              (error) => setState(() => _output = error));
-                      debugPrint('debug:$_output');
-                    }
-                  },
-                  child: const Text('Wallet Connect'),
+                TextFormField(
+                  decoration:
+                      const InputDecoration(labelText: 'Wallet Address'),
+                  controller: txtController,
+                  enabled: false,
                 ),
+                if (walletAddress == null)
+                  ElevatedButton(
+                    onPressed: () async {
+                      adapter.authorize().then((result) {
+                        setState(() {
+                          setState(() {
+                            output = result;
+                          });
+                          setState(() {
+                            walletAddress =
+                                result.accounts.first.addressBase58.toString();
+                          });
+                          setState(() {
+                            capturedError = null;
+                          });
+                        });
+                      }).catchError((error) {
+                        debugPrint('Error: ${error.toString()}');
+
+                        if (error.toString() ==
+                                'Assertion failed: "Desktop implementations must call setProvider() first."' ||
+                            error.toString() ==
+                                "[SolanaException<SolanaWalletAdapterExceptionCode>] SolanaWalletAdapterExceptionCode.walletNotFound : The wallet application could not be opened.") {
+                          debugPrint('Launching Phantom Wallet Connect');
+                          _showPhantomModal();
+                        }
+                      });
+                    },
+                    child: const Text('Connect Wallet'),
+                  ),
+                if (walletAddress != null)
+                  ElevatedButton(
+                    onPressed: () async {
+                      if (_formKey.currentState!.validate()) {
+                        _formKey.currentState!.save();
+                        submitData().then((value) {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => ResultPage(
+                                statusCode: value,
+                                firstName: _firstName!,
+                                lastName:
+                                    _lastName!, // replace with actual value
+                                email: _email!,
+                                countryCode: _countryCode,
+                                mobileNumber: _mobileNumber,
+                                twitterHandle: _twitterHandle,
+                                discordHandle: _discordHandle,
+                                optedIn: _optIn,
+                                walletAddress: walletAddress!,
+                              ),
+                            ),
+                          );
+                        }).catchError((error) {
+                          debugPrint('Error: ${error.toString()}');
+                          setState(() {
+                            capturedError = error.toString();
+                          });
+                        });
+                      }
+                    },
+                    child: const Text('Submit Lead'),
+                  ),
                 if (_output != null) Text('Address: $_capturedAddress'),
+                if (capturedError != null)
+                  ErrorBox(
+                      errorMessage: capturedError,
+                      onClose: () {
+                        setState(() {
+                          capturedError = null;
+                        });
+                      })
               ],
             ),
           ),

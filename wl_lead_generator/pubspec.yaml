@@ -37,6 +37,8 @@ dependencies:
   phone_form_field: ^7.1.0
   solana_wallet_adapter: ^0.0.7
   convert: any
+  url_launcher: ^6.1.11
+  http: ^1.0.0
 
 dev_dependencies:
   flutter_test:
