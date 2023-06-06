@@ -5,6 +5,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:solana_wallet_adapter/solana_wallet_adapter.dart';
+import 'package:wl_lead_generator/widgets/countdown.dart';
 import 'package:wl_lead_generator/widgets/error_box.dart';
 import 'result_page.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -98,8 +99,8 @@ class LandingPageState extends State<LandingPage> {
 
   // submit data
   Future<int> submitData() async {
-    final url =
-        'http://localhost:3000/submit'; // Replace with your API endpoint
+    const url =
+        'https://us-central1-continual-mind-388823.cloudfunctions.net/user-test/submit'; // Replace with your API endpoint
 
     // Create a map of the data to be sent
     final data = {
@@ -168,7 +169,7 @@ class LandingPageState extends State<LandingPage> {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(30.0),
         child: Form(
           key: _formKey,
           child: SingleChildScrollView(
@@ -226,17 +227,14 @@ class LandingPageState extends State<LandingPage> {
                 ),
                 PhoneFormField(
                     key: const Key('phone-field'),
+                    decoration:
+                        const InputDecoration(labelText: 'Mobile Number'),
                     defaultCountry: IsoCode.US,
                     showDialCode: true,
                     onChanged: (phone) => {
                           _mobileNumber = phone?.countryCode,
                           debugPrint('debug:$phone')
-                        }
-                    //  decoration: const InputDecoration(
-                    //     labelText: 'Mobile Number',          // default to null
-                    //     border: OutlineInputBorder(), // default to UnderlineInputBorder(),
-                    //   ),
-                    ),
+                        }),
                 TextFormField(
                   decoration:
                       const InputDecoration(labelText: 'Twitter Handle'),
@@ -343,6 +341,7 @@ class LandingPageState extends State<LandingPage> {
                     child: const Text('Submit Lead'),
                   ),
                 if (_output != null) Text('Address: $_capturedAddress'),
+                const CountDown(),
                 if (capturedError != null)
                   ErrorBox(
                       errorMessage: capturedError,
