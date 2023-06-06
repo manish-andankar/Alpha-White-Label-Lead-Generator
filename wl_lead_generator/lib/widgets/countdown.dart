@@ -75,9 +75,9 @@ class CountDownState extends State<CountDown> {
       timeText += 'Days: $days | ';
     }
 
-    timeText += 'Hours: ${hours.toString().padLeft(2, '0')} | ';
-    timeText += 'Minutes: ${minutes.toString().padLeft(2, '0')} | ';
-    timeText += 'Seconds: ${seconds.toString().padLeft(2, '0')}';
+    timeText += 'Hours: ${hours.toString()} | ';
+    timeText += 'Minutes: ${minutes.toString()} | ';
+    timeText += 'Seconds: ${seconds.toString()}';
 
     return timeText;
   }
