@@ -1,0 +1,94 @@
+import 'package:flutter/material.dart';
+
+// Step 1: Create CountryCodeDropdown widget as the parent widget
+class CountryCodeDropdown extends StatefulWidget {
+  @override
+  _CountryCodeDropdownState createState() => _CountryCodeDropdownState();
+}
+
+class _CountryCodeDropdownState extends State<CountryCodeDropdown> {
+  String? selectedCountryCode;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Country Code Dropdown'),
+      ),
+      body: Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Selected Country Code: $selectedCountryCode'),
+            SizedBox(height: 16.0),
+            CountryCodeList(
+              onCountryCodeSelected: (countryCode) {
+                setState(() {
+                  selectedCountryCode = countryCode;
+                });
+              },
+            ),
+            SizedBox(height: 16.0),
+            DropdownButton<String>(
+              value: selectedCountryCode,
+              hint: Text('Select Country Code'),
+              items: countryCodes.map((country) {
+                return DropdownMenuItem<String>(
+                  value: country['dialCode'],
+                  child: Text(country['dialCode']),
+                );
+              }).toList(),
+              onChanged: (value) {
+                setState(() {
+                  selectedCountryCode = value;
+                });
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// Step 3: Implement CountryCodeList widget
+class CountryCodeList extends StatelessWidget {
+  final void Function(String) onCountryCodeSelected;
+
+  CountryCodeList({required this.onCountryCodeSelected});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      itemCount: countryCodes.length,
+      itemBuilder: (context, index) {
+        final country = countryCodes[index];
+        final name = country['name'];
+        final dialCode = country['dialCode'];
+
+        return ListTile(
+          title: Text(name),
+          trailing: Text(dialCode),
+          onTap: () {
+            onCountryCodeSelected(dialCode);
+          },
+        );
+      },
+    );
+  }
+}
+
+// Step 2: Create countryCodes list
+List<Map<String, dynamic>> countryCodes = [
+  {"name": "United States", "dialCode": "+1"},
+  {"name": "United Kingdom", "dialCode": "+44"},
+  // Add more countries...
+];
+
+// // Step 7: Run the app using the CountryCodeDropdown widget as the initial screen
+// void main() {
+//   runApp(MaterialApp(
+//     home: CountryCodeDropdown(),
+//   ));
+// }
