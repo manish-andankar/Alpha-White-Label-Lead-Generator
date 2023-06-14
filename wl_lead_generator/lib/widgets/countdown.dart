@@ -28,8 +28,8 @@ class CountDownState extends State<CountDown> {
 
   Future<void> fetchTargetDateTime() async {
     // Make an HTTP GET request to fetch the target date and time
-    final response =
-        await http.get(Uri.parse('http://localhost:3000/get-date'));
+    final response = await http.get(Uri.parse(
+        'https://us-central1-continual-mind-388823.cloudfunctions.net/get-date'));
 
     if (response.statusCode == 200) {
       final jsonResponse = jsonDecode(response.body);

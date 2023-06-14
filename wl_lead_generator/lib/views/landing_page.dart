@@ -100,8 +100,8 @@ class LandingPageState extends State<LandingPage> {
   // submit data
   Future<int> submitData() async {
     const url =
-        'https://us-central1-continual-mind-388823.cloudfunctions.net/user-test/submit'; // Replace with your API endpoint
-
+        'https://us-west2-continual-mind-388823.cloudfunctions.net/user'; // Replace with your API endpoint
+    // const url = "http://localhost:8080/user";
     // Create a map of the data to be sent
     final data = {
       'firstName': _firstName,
@@ -111,8 +111,8 @@ class LandingPageState extends State<LandingPage> {
       'mobileNumber': _mobileNumber,
       'twitterHandle': _twitterHandle,
       'discordHandle': _discordHandle,
-      'optedIn': _optIn.toString(),
-      'walletAddress': walletAddress,
+      'optIn': _optIn,
+      'solAddress': walletAddress,
     };
 
     final headers = {
