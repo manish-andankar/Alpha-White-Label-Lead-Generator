@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839313874487",
+    "project_id": "continual-mind-388823",
+    "storage_bucket": "continual-mind-388823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839313874487:android:a0410c5b3c08a43c0229b2",
+        "android_client_info": {
+          "package_name": "com.example.wl_lead_generator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839313874487-mbck6ue987rq1fam9a9c19p194j7iad4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKh2T4kk41pV_NaEbwkawrEejFqn0zD4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839313874487-mbck6ue987rq1fam9a9c19p194j7iad4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

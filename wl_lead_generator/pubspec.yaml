@@ -39,6 +39,8 @@ dependencies:
   convert: any
   url_launcher: ^6.1.11
   http: ^1.0.0
+  firebase_core: ^2.14.0
+  firebase_analytics: ^10.4.3
 
 dev_dependencies:
   flutter_test:
