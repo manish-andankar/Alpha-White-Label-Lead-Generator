@@ -1,3 +1,4 @@
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'landing_page.dart';
 
@@ -12,6 +13,9 @@ class ResultPage extends StatelessWidget {
   final String? discordHandle;
   final bool optedIn;
   final String walletAddress;
+  final String title;
+  final FirebaseAnalytics analytics;
+  final FirebaseAnalyticsObserver observer;
 
   const ResultPage({
     super.key,
@@ -25,6 +29,9 @@ class ResultPage extends StatelessWidget {
     required this.discordHandle,
     required this.optedIn,
     required this.walletAddress,
+    required this.title,
+    required this.analytics,
+    required this.observer,
   });
 
   @override
@@ -73,7 +80,12 @@ class ResultPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const LandingPage()),
+                  MaterialPageRoute(
+                      builder: (context) => LandingPage(
+                            title: 'Flutter Demo Home Page',
+                            analytics: analytics,
+                            observer: observer,
+                          )),
                 );
               },
               child: const Text('Back'),

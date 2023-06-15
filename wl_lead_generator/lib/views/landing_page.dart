@@ -2,6 +2,7 @@
 // import 'dart:js_interop';
 
 import 'dart:convert';
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:solana_wallet_adapter/solana_wallet_adapter.dart';
@@ -12,7 +13,16 @@ import 'package:url_launcher/url_launcher_string.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 
 class LandingPage extends StatefulWidget {
-  const LandingPage({super.key});
+  const LandingPage({
+    Key? key,
+    required this.title,
+    required this.analytics,
+    required this.observer,
+  }) : super(key: key);
+
+  final String title;
+  final FirebaseAnalytics analytics;
+  final FirebaseAnalyticsObserver observer;
 
   @override
   LandingPageState createState() => LandingPageState();
@@ -22,6 +32,9 @@ class LandingPageState extends State<LandingPage> {
   final _formKey = GlobalKey<FormState>();
   AuthorizeResult? _output;
   String? _capturedAddress;
+  static FirebaseAnalytics analytics = FirebaseAnalytics.instance;
+  static FirebaseAnalyticsObserver observer =
+      FirebaseAnalyticsObserver(analytics: analytics);
 
   // final AppInfo appInfo = AppInfo(
   //   name: 'My App',
@@ -327,6 +340,8 @@ class LandingPageState extends State<LandingPage> {
                                 discordHandle: _discordHandle,
                                 optedIn: _optIn,
                                 walletAddress: walletAddress!,
+                                analytics: analytics, observer: observer,
+                                title: '',
                               ),
                             ),
                           );

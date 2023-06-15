@@ -14,9 +14,7 @@ Future<void> main() async {
   //await SolanaWalletAdapter.initialize();
 
   SolanaWalletAdapterPlatform.instance.setProvider(AppInfo.phantom);
-  // FirebaseAnalytics analytics = FirebaseAnalytics.instance;
-  // var console;
-  // console.log(analytics);
+
   runApp(const MyApp());
 }
 
@@ -59,8 +57,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LandingPage(),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: LandingPage(
+        title: 'Flutter Demo Home Page',
+        analytics: analytics,
+        observer: observer,
+      ),
     );
   }
 }
