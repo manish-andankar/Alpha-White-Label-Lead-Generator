@@ -2,6 +2,7 @@
 ## Solution Description: Alpha White Label Lead Generator
 ### Industry: Fin-Tech
 
+
 This is **Part-1** of *The Hobbit's Journey*, that contains working and deployable code and final software package for Front-End Cross-Platform application, built using Flutter.
 
 ### Tech Stack
@@ -41,6 +42,7 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 ![image](https://github.com/manish-andankar/Alpha-White-Label-Lead-Generator/assets/128000185/ba79db91-40a3-4eb2-b57e-f803a1c4c0c7)
 
 
+
 ### Solution Constraints:
   - Deployable on three platforms - Web, Android and iOS Application.
   - Performance: Response time, Load Time, Resource Utilization, Application File/Build Size, No Errors, Warnings or Crashes.
@@ -48,11 +50,13 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
   - Passes all the automated unit test cases
 
 ### Tools to use/avoid
+
   - Use: Flutter
   - Use: Any of the Integrated Development Environment like Visual Studio Code recommended by Flutter. See https://docs.flutter.dev/get-started/editor to learn more.
   - use: Dart, DartPad
   - use: Best practices and Recommendations from Flutter 
   - preferred: Vercel 
+
 
 ### Test Cases - Applicable for Web, Android and iOS App.
 | Test No | Test Name | Test Description | Test Data |  Test Steps | Expected Results |
@@ -65,11 +69,13 @@ The Alpha White Label Lead Generation Flutter App utilizes the following technol
 | 5 | Wallet Connect Failure | Wallet Connect fails | User Info, Opt-Out | Provide User Info with email *a@a.com*, Opt-In is *UNCHECKED*, Click Wallet Connect Button | User Navigates to Result Page, with a *Failure Message*, and page shows *Naviage to Home Button*|
 
 ### Deliverables
+
   - Completed Code checked in to the repository with a *unique folder name* that indicates your contribution. It is the *parent* folder for all deliverables.
   - Web application deployed on Vercel and link shared in a text file checked in with the name *web_app_url* under the folder *deliverables* within the *unique folder*.
   - Mobile application files for iOS and Android that are installable on an Apple or Android device and runs successfully on those devices, checked in to the *deliverables* folder.
   - Deployment instructions for each platform, Web, iOS and Android are documented with supporting materials and assets in the *deployment guide* folder.
   - Documentation & Video Demo under the folder *documentation* within the *unique folder*. 
+
 
 
 
